@@ -76,6 +76,10 @@ func (g *Game) countVertical(token string, column int) bool {
 	return false
 }
 
+func (g *Game) countAcendingDiagonal(token string, column, row int) bool {
+
+}
+
 func newBoard() *Game {
 	g := Game{Turn: "X"}
 	for i := 0; i < totalRows; i++ {
